@@ -1,0 +1,8 @@
+## Install Dependencies
+python -m venv venv
+source venv/bin/activate   # For Windows, use `venv\Scripts\activate`
+pip install -r requirements.txt
+
+ALCHEMY_API_URL=https://eth-mainnet.alchemyapi.io/v2/your-api-key
+TELEGRAM_BOT_TOKEN=your-telegram-bot-token
+TELEGRAM_CHAT_ID=your-chat-id
